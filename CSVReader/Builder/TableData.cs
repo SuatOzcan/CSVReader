@@ -4,7 +4,7 @@ namespace CsvDataAccess.Builder;
 
 public class TableData : ITableData
 {
-    public readonly List<Row> _rows;
+    private readonly List<Row> _rows;
     public int RowCount => _rows.Count;
     public IEnumerable<string> Columns { get; }
 

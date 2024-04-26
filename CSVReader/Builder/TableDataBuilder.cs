@@ -47,7 +47,6 @@ public class TableDataBuilder : ITableDataBuilder
 
             resultRows.Add(newRow);
         }
-
         return new TableData(csvData.Columns, resultRows);
     }
 }
